@@ -4,7 +4,7 @@
   "description": "Node, Express, Typescript, React Biolerplate",
   "main": "server/dist/index.js",
   "scripts": {
-    "dev": "webpack & tsc --watch -p ./config/tsconfig-server.json & nodemon ./server/dist",
+    "dev": "webpack --watch & tsc --watch -p ./config/tsconfig-server.json & nodemon ./server/dist",
     "build-client": "webpack",
     "build": "tsc"
   },
